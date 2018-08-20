@@ -1,0 +1,125 @@
+*{
+ margin: 0px;
+ padding: 0px;
+}
+#wrapper{
+ background-color: silver;
+ margin: 0px auto;
+}
+#header{
+ min-height: 150px;
+ background-color: green;
+}
+#navigation{
+ min-height: 300px;
+ background-color: blue;
+}
+#main_content{
+ min-height: 400px;
+ background-color: red;
+ vertical-align: top;
+}
+.subcontents{
+ min-height: 180px;
+ background-color: yellow;
+}
+#advertisement{
+ min-height: 120px;
+ background-color: purple;
+}
+
+@media only screen and (max-width: 480px){
+    #wrapper{
+        width: auto;
+        padding: 5%;
+    }
+
+    #header{
+        width: auto;
+        margin: 5%;
+    }
+
+    #navigation{
+        display: none;
+    }
+
+    #main_content{
+        margin: 5%;
+    }
+
+    .subcontents{
+        margin: 5%;
+    }
+
+    #advertisement{
+        margin: 5%;
+    }
+}
+
+@media only screen and (min-width: 481px){
+    #wrapper{
+        width: auto;
+        padding: 5%;
+    }
+
+    #header{
+        width: auto;
+        margin: 5%;
+        display: block;
+        height: 20%;
+    }
+
+    #navigation{
+        display: none;
+    }
+
+    #main_content{
+        margin: 5%;
+    }
+
+    .subcontents{
+        margin: 5%;
+        width: 38%;
+        display: inline-block;
+    }
+
+    #advertisement{
+        margin: 5%;
+    }
+}
+
+@media only screen and (min-width: 1024px){
+    #wrapper{
+        width: auto;
+        padding: 5%;
+    }
+
+    #header{
+        width: auto;
+        margin: 5% 5% 0% 5%;
+
+    }
+
+    #navigation{
+        display: inline-block;
+        width: 20%;
+        margin: 5%;
+    }
+
+    #main_content{
+        margin-left: 5%;
+        display: inline-block;
+        width: 59%;
+        vertical-align: top;
+    }
+
+    .subcontents{
+        margin: 5%;
+        width: 22%;
+        display: inline-block;
+    }
+
+    #advertisement{
+        margin: 5%;
+    }
+}

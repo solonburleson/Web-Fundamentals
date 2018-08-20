@@ -1,0 +1,60 @@
+*{
+    outline: 1px solid black;
+}
+
+h1{
+    background-color: gray;
+    padding: 10px;
+}
+
+p{
+    background-color: lightgray;
+    padding: 10px;
+}
+
+span{
+    font-weight: bold;
+}
+
+@media only screen and (max-width: 480px){
+    #phone{
+        background-color: yellow;
+    }
+
+    #tablet{
+        display: none;
+    }
+
+    #desktop{
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 481px){
+    #tablet{
+        background-color: yellow;
+    }
+
+    #phone{
+        display: none;
+    }
+
+    #desktop{
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 1024px){
+    #desktop{
+        background-color: yellow;
+        display: block;
+    }
+
+    #phone{
+        display: none;
+    }
+
+    #tablet{
+        display: none;
+    }
+}

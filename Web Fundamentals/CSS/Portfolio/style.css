@@ -1,0 +1,123 @@
+*{
+    /* outline: 1px solid black; */
+}
+
+#wrapper{
+    width: 970px;
+    height: auto;
+}
+
+#header{
+    background-color: lightgray;
+    display: block;
+    padding: 10px;
+}
+
+#body{
+    background: radial-gradient(lightgray,purple);
+    display: block;
+    padding: 10px;
+}
+
+#footer{
+    background-color: lightgray;
+    display: block;
+    padding: 10px;
+}
+
+h1{
+    display: inline;
+}
+
+h2{
+    display: inline;
+    margin-left: 450px;
+}
+
+#photo{
+    background-color: gray;
+    padding: 5px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    margin-left: 0px;
+    margin-right: 10px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.photo{
+    width: 360px;
+    height: 240px;
+}
+
+#aboutme{
+    display: inline-block;
+    width: 560px;
+    vertical-align: top;
+    margin-bottom: 10px;
+}
+
+.subheaders{
+    background: radial-gradient(gray,lightgray);
+    color: white;
+    display: block;
+    padding: 10px;
+    font-size: 24px;
+}
+
+.text{
+    display: inline-block;
+    background-color: lightgray;
+    padding: 10px;
+    vertical-align: top;
+}
+
+a{
+    display: block;
+    padding: 10px;
+}
+
+#project{
+    width: 300px;
+    height: auto;
+    display: inline-block;
+    margin: 7px;
+    vertical-align: top;
+    background-color: lightgray;
+}
+
+.small_img{
+    width: 300px;
+    height: 200px;
+}
+
+.height{
+    height: 170px;
+}
+
+.tech{
+    height:30px;
+    width: 30px;
+    margin:5px;
+    display: inline-block;
+    padding: 5px;
+}
+
+input{
+    background-color: green;
+    border-radius: 8px;
+    padding: 5px;
+    margin-left: 30%;
+    margin-top: 5px;
+}
+
+.socials{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 12px;
+    text-align: center;
+}
+
+.icon{
+    height: 10px;
+    width: 10px;
+}

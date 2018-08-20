@@ -1,0 +1,52 @@
+Algorithms III
+
+1. Guess: 5
+   Return: 5
+
+2. Guess: [2,2,5],[2,2,5],[6,8,5],[6,8,5]
+   Return: [2,2,5],[2,2,5],[6,8,5],[6,8,5]
+
+3. Guess: [2,2,5]
+   Return: [2,2,5]
+
+4. Guess: true
+   Return: true
+
+5. Guess: [Coding,Coding,Coding,Coding]
+   Return: undefined
+function never has a return statement
+
+6. Guess: undefined
+   Return: undefined
+
+7. Guess: 10
+   Return: 10
+
+8. Guess: never calls the function to run
+   Return: 
+
+Part II
+
+1.
+var avg = 0;
+for(var i = 0; i<x.length; i++){
+	sum += x[i];
+}
+avg = sum / x.length;
+return avg
+
+2.
+function returnOddArray(x,y){
+   var arr = [];
+   for(x; x < y; x++){
+     if(x%2 !== 0){
+       arr.push(x);
+     }
+   }
+  return arr;
+}
+
+3.
+for(var i = 0; i < x.length; i++){
+   x[i] *= x[i];
+}

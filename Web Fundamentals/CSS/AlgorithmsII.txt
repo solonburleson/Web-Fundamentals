@@ -1,0 +1,46 @@
+Algorithms II
+
+Part 1
+
+1. Guess: 2,3
+   Return: 2,3,undefined
+b is not set to anything so logging b is undefined
+
+2. Guess: 6,10
+   Return: 6,10
+
+3. Guess: 3,4,5,6,7
+   Return: 3,7
+the value of i changes in the for loop, didn't account for that
+
+4. Guess: 15,15,10,15
+   Return: 15,15,10,15
+
+5. Guess: 0,2,4,6,8,10,12,14
+   Return: 0,2,4,6,8,10,12,14
+
+6. Guess: 0,0,0,0,1,2,0,2,4
+   Return: 0,0,0,1,0,2
+the j variable never increments to 2
+
+7. Guess: 0,0,0,0,1,2,0,2,4,undefined
+   Return: 0,0,0,0,1,2,0,2,4,undefined
+
+8. Guess: 0,0,0,0,0,0,1,2,3,4,0,2,4,6,8,15
+   Return: 0,0,0,0,0,0,1,2,3,4,0,2,4,6,8,15
+
+Part 2
+
+1.
+for(var i=1; i<x; i++){
+    console.log(i)
+  }
+
+2.
+for(var i=0; i<=x; i++){
+    sum += i;
+  }
+
+3.
+sum += x[i];
+   
