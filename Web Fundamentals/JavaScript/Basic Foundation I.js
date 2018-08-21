@@ -20,7 +20,7 @@ function EvenThousand(x){
 
 function OddFiveK(x){
     var sum = 0;
-    for(x; x< 5000; x++){
+    for(x; x < 5000; x++){
         if(x%2 !== 0){
             sum += x;
         }
